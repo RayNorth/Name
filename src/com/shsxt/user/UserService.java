@@ -8,5 +8,8 @@ public class UserService {
     System.out.println("hello");
         System.out.println("world");
     }
+    public void findUser(String userName){
+        System.out.println("userName="+userName);
+    }
 
 }
