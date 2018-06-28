@@ -6,7 +6,8 @@ package com.shsxt.user;
 public class UserService {
     public static void main(String[] args){
     System.out.println("hello");
-        System.out.println("world");
+    String name = "out";
+        System.out.println(name);
     }
     public void findUser(String userName){
         System.out.println("userName="+userName);
